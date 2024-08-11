@@ -6,6 +6,7 @@ I am learning python
         Datatype
         operator
         type conversion
+        <br>
 ##Day 2:
         string
         conditional statements
