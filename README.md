@@ -10,3 +10,9 @@ I am learning python
 ## Day 2:
         string
         conditional statements
+## Day 3:
+        List 
+        Tuple
+## Day 4:
+        Dictionary
+        Set
