@@ -1,34 +1,34 @@
-# # OOPs part 2
+# OOPs part 2
 
-# # del keyword : Used to delete object properties or object itsef
-# class student:
-#     name = 'Shiva'
-#     __balance = 0
-#     def print_balance(self):
-#         print("balance is ",self.__balance)
-#     def __add_balance(self,balance):
-#         self.__balance += balance
-#         self.print_balance()
-#     def update_balance(self):
-#         self.__add_balance(int(input("Enter the balance to add in account: ")))
+# del keyword : Used to delete object properties or object itsef
+class student:
+    name = 'Shiva'
+    __balance = 0
+    def print_balance(self):
+        print("balance is ",self.__balance)
+    def __add_balance(self,balance):
+        self.__balance += balance
+        self.print_balance()
+    def update_balance(self):
+        self.__add_balance(int(input("Enter the balance to add in account: ")))
 
-# _s = student()
-# _s1 = student()
-# print(_s.name)
-# del _s
-# # print(_s.name)     #NameError: name '_s' is not defined
+_s = student()
+_s1 = student()
+print(_s.name)
+del _s
+# print(_s.name)     #NameError: name '_s' is not defined
 
 
-# # Private(like) attributes and methods that
-# """
-# Conceptual implementations in python
-# Private attributes and methods are meant to be used only within the class and are not accessble from outside the class.
-# By giving the 2 underscore(__) infront of name(attributes): __balance
-# """
-# # print(_s1.__balance)  #give error because __balance is private attributes cant acces outside of the class
+# Private(like) attributes and methods that
+"""
+Conceptual implementations in python
+Private attributes and methods are meant to be used only within the class and are not accessble from outside the class.
+By giving the 2 underscore(__) infront of name(attributes): __balance
+"""
+# print(_s1.__balance)  #give error because __balance is private attributes cant acces outside of the class
 
-# _s1.print_balance()
-# _s1.update_balance()
+_s1.print_balance()
+_s1.update_balance()
 
 
 
